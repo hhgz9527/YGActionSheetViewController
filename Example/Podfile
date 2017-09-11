@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YGActionSheetViewController_Example' do
+  pod 'YGActionSheetViewController', :path => '../'
+
+  target 'YGActionSheetViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
