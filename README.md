@@ -21,6 +21,21 @@ source 'https://github.com/hhgz9527/YGUI.git'
 pod 'YGActionSheetViewController'
 ```
 
+## Usage
+```
+let vc = YGActionSheetViewController()
+vc.text = ["1", "2"]
+vc.action = { status in
+  switch status {
+    case .index(row: let row):
+  case .cancel:
+    debugPrint("cancel")
+  }
+}
+vc.modalPresentationStyle = .overFullScreen
+self.present(vc, animated: false, completion: nil)
+```
+
 ## Author
 
 hhgz9527, gaoyu.dreamer@gmail.com
