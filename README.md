@@ -16,7 +16,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 To install it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'YGActionSheetViewController' :podspec => 'https://github.com/hhgz9527/YGUI/blob/master/YGActionSheetViewController/0.1.0/YGActionSheetViewController.podspec'
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/hhgz9527/YGUI.git'
+pod 'YGActionSheetViewController'
 ```
 
 ## Author
