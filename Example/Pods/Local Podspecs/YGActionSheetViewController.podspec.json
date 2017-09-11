@@ -1,0 +1,28 @@
+{
+  "name": "YGActionSheetViewController",
+  "version": "0.1.0",
+  "summary": "YGUI - Action Sheet View.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hhgz9527/YGActionSheetViewController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hhgz9527": "gaoyu.dreamer@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/hhgz9527/YGActionSheetViewController.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/gaoyu_dreamer",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YGActionSheetViewController/Classes/**/*",
+  "dependencies": {
+    "SnapKit": [
+      "~> 3.2.0"
+    ]
+  }
+}

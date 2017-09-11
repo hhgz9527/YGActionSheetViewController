@@ -1,0 +1,19 @@
+PODS:
+  - SnapKit (3.2.0)
+  - YGActionSheetViewController (0.1.0):
+    - SnapKit (~> 3.2.0)
+
+DEPENDENCIES:
+  - YGActionSheetViewController (from `../`)
+
+EXTERNAL SOURCES:
+  YGActionSheetViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  YGActionSheetViewController: 2b01d7a84bd1849e0251d7f1c38cf9a69ad40032
+
+PODFILE CHECKSUM: 23dbbed6e6b43e3ca7c64ba476c59147dc41d86d
+
+COCOAPODS: 1.2.1

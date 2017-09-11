@@ -1,0 +1,6 @@
+framework module Pods_YGActionSheetViewController_Example {
+  umbrella header "Pods-YGActionSheetViewController_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

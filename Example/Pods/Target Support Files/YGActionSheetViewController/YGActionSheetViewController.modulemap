@@ -1,0 +1,6 @@
+framework module YGActionSheetViewController {
+  umbrella header "YGActionSheetViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}
