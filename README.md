@@ -22,7 +22,12 @@ To install it, simply add the following line to your Podfile:
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/hhgz9527/YGUI.git'
-pod 'YGActionSheetViewController'
+
+use_frameworks!
+
+target 'ProjectName' do
+  pod 'YGActionSheetViewController'
+end
 ```
 
 ## Usage
