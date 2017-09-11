@@ -7,9 +7,13 @@
 
 ## Example
 
+![image](https://github.com/hhgz9527/YGActionSheetViewController/blob/master/image.gif?raw=true)
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+iOS 8.0, Swift 3.2
 
 ## Installation
 
